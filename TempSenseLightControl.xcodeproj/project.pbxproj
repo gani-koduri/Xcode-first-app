@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7085F69196B1A0B08281106 /* Pods_TempSenseLightControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1442A2954D2CC5F355BB8F /* Pods_TempSenseLightControl.framework */; };
+		FAF23F0B1FE34C860057A415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF23F0A1FE34C860057A415 /* AppDelegate.m */; };
+		FAF23F0E1FE34C860057A415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF23F0D1FE34C860057A415 /* ViewController.m */; };
+		FAF23F111FE34C860057A415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF23F0F1FE34C860057A415 /* Main.storyboard */; };
+		FAF23F131FE34C860057A415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF23F121FE34C860057A415 /* Assets.xcassets */; };
+		FAF23F191FE34C870057A415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF23F181FE34C870057A415 /* main.m */; };
+		FAF23F231FE34C880057A415 /* TempSenseLightControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF23F221FE34C880057A415 /* TempSenseLightControlTests.m */; };
+		FAF23F2E1FE34C880057A415 /* TempSenseLightControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF23F2D1FE34C880057A415 /* TempSenseLightControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF23F1F1FE34C880057A415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF23EFE1FE34C860057A415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF23F051FE34C860057A415;
+			remoteInfo = TempSenseLightControl;
+		};
+		FAF23F2A1FE34C880057A415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF23EFE1FE34C860057A415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF23F051FE34C860057A415;
+			remoteInfo = TempSenseLightControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C1442A2954D2CC5F355BB8F /* Pods_TempSenseLightControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempSenseLightControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C934F82BFDADEF2EE5BB218F /* Pods-TempSenseLightControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempSenseLightControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempSenseLightControl/Pods-TempSenseLightControl.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1F46097E951BBA7579CB28 /* Pods-TempSenseLightControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempSenseLightControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempSenseLightControl/Pods-TempSenseLightControl.release.xcconfig"; sourceTree = "<group>"; };
+		FAF23F061FE34C860057A415 /* TempSenseLightControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempSenseLightControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF23F091FE34C860057A415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF23F0A1FE34C860057A415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF23F0C1FE34C860057A415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAF23F0D1FE34C860057A415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAF23F101FE34C860057A415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF23F121FE34C860057A415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF23F171FE34C870057A415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF23F181FE34C870057A415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF23F1E1FE34C880057A415 /* TempSenseLightControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempSenseLightControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF23F221FE34C880057A415 /* TempSenseLightControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempSenseLightControlTests.m; sourceTree = "<group>"; };
+		FAF23F241FE34C880057A415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF23F291FE34C880057A415 /* TempSenseLightControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempSenseLightControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF23F2D1FE34C880057A415 /* TempSenseLightControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempSenseLightControlUITests.m; sourceTree = "<group>"; };
+		FAF23F2F1FE34C880057A415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF23F031FE34C860057A415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7085F69196B1A0B08281106 /* Pods_TempSenseLightControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF23F1B1FE34C880057A415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF23F261FE34C880057A415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C661E4C7E38F4B8CC84BE88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C934F82BFDADEF2EE5BB218F /* Pods-TempSenseLightControl.debug.xcconfig */,
+				EA1F46097E951BBA7579CB28 /* Pods-TempSenseLightControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A237D118EC3BE5FBB6D9A786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C1442A2954D2CC5F355BB8F /* Pods_TempSenseLightControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF23EFD1FE34C860057A415 = {
+			isa = PBXGroup;
+			children = (
+				FAF23F081FE34C860057A415 /* TempSenseLightControl */,
+				FAF23F211FE34C880057A415 /* TempSenseLightControlTests */,
+				FAF23F2C1FE34C880057A415 /* TempSenseLightControlUITests */,
+				FAF23F071FE34C860057A415 /* Products */,
+				9C661E4C7E38F4B8CC84BE88 /* Pods */,
+				A237D118EC3BE5FBB6D9A786 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF23F071FE34C860057A415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF23F061FE34C860057A415 /* TempSenseLightControl.app */,
+				FAF23F1E1FE34C880057A415 /* TempSenseLightControlTests.xctest */,
+				FAF23F291FE34C880057A415 /* TempSenseLightControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF23F081FE34C860057A415 /* TempSenseLightControl */ = {
+			isa = PBXGroup;
+			children = (
+				FAF23F091FE34C860057A415 /* AppDelegate.h */,
+				FAF23F0A1FE34C860057A415 /* AppDelegate.m */,
+				FAF23F0C1FE34C860057A415 /* ViewController.h */,
+				FAF23F0D1FE34C860057A415 /* ViewController.m */,
+				FAF23F0F1FE34C860057A415 /* Main.storyboard */,
+				FAF23F121FE34C860057A415 /* Assets.xcassets */,
+				FAF23F171FE34C870057A415 /* Info.plist */,
+				FAF23F181FE34C870057A415 /* main.m */,
+			);
+			path = TempSenseLightControl;
+			sourceTree = "<group>";
+		};
+		FAF23F211FE34C880057A415 /* TempSenseLightControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF23F221FE34C880057A415 /* TempSenseLightControlTests.m */,
+				FAF23F241FE34C880057A415 /* Info.plist */,
+			);
+			path = TempSenseLightControlTests;
+			sourceTree = "<group>";
+		};
+		FAF23F2C1FE34C880057A415 /* TempSenseLightControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF23F2D1FE34C880057A415 /* TempSenseLightControlUITests.m */,
+				FAF23F2F1FE34C880057A415 /* Info.plist */,
+			);
+			path = TempSenseLightControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF23F051FE34C860057A415 /* TempSenseLightControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF23F321FE34C880057A415 /* Build configuration list for PBXNativeTarget "TempSenseLightControl" */;
+			buildPhases = (
+				93AA1A2FD86497CCA0BCD0EE /* [CP] Check Pods Manifest.lock */,
+				FAF23F021FE34C860057A415 /* Sources */,
+				FAF23F031FE34C860057A415 /* Frameworks */,
+				FAF23F041FE34C860057A415 /* Resources */,
+				C258DED0A7805F5E4607603D /* [CP] Embed Pods Frameworks */,
+				BD00A45F85AB2552B8BB64A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempSenseLightControl;
+			productName = TempSenseLightControl;
+			productReference = FAF23F061FE34C860057A415 /* TempSenseLightControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF23F1D1FE34C880057A415 /* TempSenseLightControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF23F351FE34C880057A415 /* Build configuration list for PBXNativeTarget "TempSenseLightControlTests" */;
+			buildPhases = (
+				FAF23F1A1FE34C880057A415 /* Sources */,
+				FAF23F1B1FE34C880057A415 /* Frameworks */,
+				FAF23F1C1FE34C880057A415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF23F201FE34C880057A415 /* PBXTargetDependency */,
+			);
+			name = TempSenseLightControlTests;
+			productName = TempSenseLightControlTests;
+			productReference = FAF23F1E1FE34C880057A415 /* TempSenseLightControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF23F281FE34C880057A415 /* TempSenseLightControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF23F381FE34C880057A415 /* Build configuration list for PBXNativeTarget "TempSenseLightControlUITests" */;
+			buildPhases = (
+				FAF23F251FE34C880057A415 /* Sources */,
+				FAF23F261FE34C880057A415 /* Frameworks */,
+				FAF23F271FE34C880057A415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF23F2B1FE34C880057A415 /* PBXTargetDependency */,
+			);
+			name = TempSenseLightControlUITests;
+			productName = TempSenseLightControlUITests;
+			productReference = FAF23F291FE34C880057A415 /* TempSenseLightControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF23EFE1FE34C860057A415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Gani;
+				TargetAttributes = {
+					FAF23F051FE34C860057A415 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FAF23F1D1FE34C880057A415 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF23F051FE34C860057A415;
+					};
+					FAF23F281FE34C880057A415 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF23F051FE34C860057A415;
+					};
+				};
+			};
+			buildConfigurationList = FAF23F011FE34C860057A415 /* Build configuration list for PBXProject "TempSenseLightControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF23EFD1FE34C860057A415;
+			productRefGroup = FAF23F071FE34C860057A415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF23F051FE34C860057A415 /* TempSenseLightControl */,
+				FAF23F1D1FE34C880057A415 /* TempSenseLightControlTests */,
+				FAF23F281FE34C880057A415 /* TempSenseLightControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF23F041FE34C860057A415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF23F131FE34C860057A415 /* Assets.xcassets in Resources */,
+				FAF23F111FE34C860057A415 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF23F1C1FE34C880057A415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF23F271FE34C880057A415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93AA1A2FD86497CCA0BCD0EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempSenseLightControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD00A45F85AB2552B8BB64A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempSenseLightControl/Pods-TempSenseLightControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C258DED0A7805F5E4607603D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TempSenseLightControl/Pods-TempSenseLightControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempSenseLightControl/Pods-TempSenseLightControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF23F021FE34C860057A415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF23F0E1FE34C860057A415 /* ViewController.m in Sources */,
+				FAF23F191FE34C870057A415 /* main.m in Sources */,
+				FAF23F0B1FE34C860057A415 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF23F1A1FE34C880057A415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF23F231FE34C880057A415 /* TempSenseLightControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF23F251FE34C880057A415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF23F2E1FE34C880057A415 /* TempSenseLightControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF23F201FE34C880057A415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF23F051FE34C860057A415 /* TempSenseLightControl */;
+			targetProxy = FAF23F1F1FE34C880057A415 /* PBXContainerItemProxy */;
+		};
+		FAF23F2B1FE34C880057A415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF23F051FE34C860057A415 /* TempSenseLightControl */;
+			targetProxy = FAF23F2A1FE34C880057A415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF23F0F1FE34C860057A415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF23F101FE34C860057A415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF23F301FE34C880057A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAF23F311FE34C880057A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF23F331FE34C880057A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C934F82BFDADEF2EE5BB218F /* Pods-TempSenseLightControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHQANP6PT7;
+				INFOPLIST_FILE = TempSenseLightControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gani.TempSenseLightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF23F341FE34C880057A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1F46097E951BBA7579CB28 /* Pods-TempSenseLightControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHQANP6PT7;
+				INFOPLIST_FILE = TempSenseLightControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gani.TempSenseLightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF23F361FE34C880057A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHQANP6PT7;
+				INFOPLIST_FILE = TempSenseLightControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gani.TempSenseLightControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempSenseLightControl.app/TempSenseLightControl";
+			};
+			name = Debug;
+		};
+		FAF23F371FE34C880057A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHQANP6PT7;
+				INFOPLIST_FILE = TempSenseLightControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gani.TempSenseLightControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempSenseLightControl.app/TempSenseLightControl";
+			};
+			name = Release;
+		};
+		FAF23F391FE34C880057A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHQANP6PT7;
+				INFOPLIST_FILE = TempSenseLightControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gani.TempSenseLightControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempSenseLightControl;
+			};
+			name = Debug;
+		};
+		FAF23F3A1FE34C880057A415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHQANP6PT7;
+				INFOPLIST_FILE = TempSenseLightControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gani.TempSenseLightControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempSenseLightControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF23F011FE34C860057A415 /* Build configuration list for PBXProject "TempSenseLightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF23F301FE34C880057A415 /* Debug */,
+				FAF23F311FE34C880057A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF23F321FE34C880057A415 /* Build configuration list for PBXNativeTarget "TempSenseLightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF23F331FE34C880057A415 /* Debug */,
+				FAF23F341FE34C880057A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF23F351FE34C880057A415 /* Build configuration list for PBXNativeTarget "TempSenseLightControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF23F361FE34C880057A415 /* Debug */,
+				FAF23F371FE34C880057A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF23F381FE34C880057A415 /* Build configuration list for PBXNativeTarget "TempSenseLightControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF23F391FE34C880057A415 /* Debug */,
+				FAF23F3A1FE34C880057A415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF23EFE1FE34C860057A415 /* Project object */;
+}
